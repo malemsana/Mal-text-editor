@@ -1,0 +1,84 @@
+/*Universal selectors*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-decoration: none
+}
+#select{
+    user-select: none;
+}
+
+/*The header section*/
+img{
+    height: 45px;
+    width: 45px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+header{
+    background-color: #000;
+    display: flex
+}
+.mt-5{
+    margin-top: 7px;
+}
+.icons{
+    height: 30px;
+    width: 30px;
+    cursor: pointer
+}
+
+/*main body*/
+.info{
+    display: flex
+}
+#logo{
+    height: 50px;
+    width: 50px
+}
+/*createnow */
+.createNow{
+    border-radius: 10px;
+    height: 200px;
+    width: 60%;
+    margin-left: 10px;
+    background-color: #6c0151b5;
+    
+}
+.top2{
+    display: flex
+}
+.recent{
+    border-radius: 10px;
+    height: 300px;
+    width: 35%;
+    margin-left: 30px;
+    background-color: #6c0151b5;
+}
+.txt{
+    margin-left: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: #FFF;
+    font-size: 25px;
+}
+.staIcon{
+    height: 120px;
+    width: 120px;
+}
+.element{
+    display: flex;
+    flex-direction: column;
+    height: 130px;
+    width: 120px;
+    margin-left: 10px;
+}
+.text2{
+    text-align: center;
+    /*font-weight: bold;*/
+    color: #fff
+}
