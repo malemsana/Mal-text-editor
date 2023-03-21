@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="novel.css">
+    <script src="novel.js" defer></script>
+    <script type="text/javascript" src="../asset/ckeditor/ckeditor.js"></script>
+</head>
+
+<body>
+    <header>
+        <img alt="logo" id="select" src="../asset/logo.png">
+        <div class="mt-5">
+            <img class="icons" alt="crerate new" src="../asset/plus.png">
+            <img class="icons" alt="files" src="../asset/files.jpg">
+        </div>
+    </header>
+    <div class="real">
+        <div id="cinfo2" class="cinfo">
+            <div class="toprow">
+                <div class="row1 lineone">
+                    <label for="fileInput">
+                        <img id="cpicc" src="../asset/unknown.png">
+                    </label>
+                    <input id="fileIput" type="file" accept="image/*">
+                    <div class="flex nga">
+                        <label for="charecterName">
+                            <input placeholder="charecter name" id="namecapital" class="cinputs" type="text">
+                        </label>
+                        <label class="seppp" for="age">
+                            <p class="negetive info">Age</p>
+                            <input id="ageinpt" class="cinputs" type="range">
+                            <output id="ageOut"></output>
+                        </label>
+                        <label class="seppp" for="gender">
+                            <p class="negetive info">Gender</p>
+                            <div class="gagaga">
+                                <img class="gendericon" id="maleicon" src="../asset/male.png">
+                                <img class="gendericon femaleicon" id="femaleicon" src="../asset/female.png">
+                                <input class="genn" id="male" type="checkbox">
+                                <input class="genn" id="female" type="checkbox">
+                            </div>
+                        </label>
+                        <label class="seppp gaara">
+                            <p class="negetive negetive2 info">Goal:</p>
+                            <textarea placeholder="wants to become greatest detective " id="goal" cols="10" rows="5" name="content"></textarea>
+                        </label>
+                    </div>
+                    <img id="add" src="../asset/plus.png">
+                    <img id="exit" src="../asset/cross.png">
+                </div>
+
+            </div>
+            <div class="row2">
+                <label class="seppp ghww1">
+                    <p class="perso info">Personility</p>
+                    <textarea placeholder="A smart friendly gus but usually act dumb." id="gold" class="gold" ></textarea>
+                </label>
+                <label class="seppp rolelbl">
+                    <p class="info">Role</p>
+                    <select id="role" type="text" list="roles">
+                        <option value="main">main</option>
+                        <option value="supporting">supporting</option>
+                        <option value="villan">villan</option>
+                    </select>
+                </label>
+            </div>
+        </div>
+        
+        <!--delete confarmation-->
+        <div id="confirm" class="confirm">
+            <p class="input w-100">Are you absolutely sure?</p>
+            <div class="flex mt-10">
+                <button id="no" class="yn no mr-10">X</button>
+                <button id="yes" class="yn yes mf-10">O</button>
+            </div>
+        </div>
+        
+        <div class="information">
+            <form class="form">
+                <div class="first">
+                    <div class="flex">
+                        <p class="info">Title</p>
+                        <input id="title" class="input" placeholder="Title">
+                    </div>
+                    <div class="flex">
+                    </div>
+                    <div class="flex">
+                        <p class="info">Date of work</p>
+                        <input id="doow" type="date" class="input">
+                    </div>
+                </div>
+
+                <div class="meterials flex">
+                    <div class="cccs">
+                        <p class="info constent">Concept</p>
+                        <textarea id="concept" class="con" rows="5" cols="40" placeholder="jack and Rob found a map in their storeroom, they deside to go there"></textarea>
+                    </div>
+                    <div id="svbtn" class="saveBtn">
+                        <button type="button" class="flex svbtn">
+                            <img class="icon" src="../asset/save.png">
+                            <p>Save!</p>
+                            </button>
+                    </div>
+                    <div class="charecters">
+                        <div class="cTop">
+                            <p class="info ecc">Charecters</p>
+                            <img id="addCharecter" class="add" src="../asset/plus.png">
+                        </div>
+                        <div>
+                            <ul id="adable">
+                                <li class="cccc">
+                                    <img class="photo" src="../asset/1x1.jpg">
+                                    <div id="textsec" class="fd-c">
+                                        <p class="name">Ren Sugawara</p>
+                                        <div class="flex">
+                                            <img class="gender" src="../asset/male.png">
+                                            <p class="age">18</p>
+                                            <p class="age margin">main</p>
+                                        </div>
+                                    </div>
+                                    <img class="trashcan" src="../asset/delete.png">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
