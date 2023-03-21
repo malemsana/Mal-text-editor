@@ -8,7 +8,9 @@
 #select{
     user-select: none;
 }
-
+body{
+    background: urll("https://3.bp.blogspot.com/-g31_rqzTK6Y/XIkaFZH8zNI/AAAAAAAAAgo/TxT0I8EQ4asm0D39LHwDPVOof7FiyeSVACKgBGAs/w0/sky-city-scenery-horizon-landscape-anime-uhdpaper.com-8K-131.jpg")
+}
 /*The header section*/
 img{
     height: 45px;
