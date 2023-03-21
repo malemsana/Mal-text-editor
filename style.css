@@ -9,8 +9,9 @@
     user-select: none;
 }
 body{
-    background-size: cover;
-    background: url("https://3.bp.blogspot.com/-g31_rqzTK6Y/XIkaFZH8zNI/AAAAAAAAAgo/TxT0I8EQ4asm0D39LHwDPVOof7FiyeSVACKgBGAs/w0/sky-city-scenery-horizon-landscape-anime-uhdpaper.com-8K-131.jpg")
+    
+    background: url("https://3.bp.blogspot.com/-g31_rqzTK6Y/XIkaFZH8zNI/AAAAAAAAAgo/TxT0I8EQ4asm0D39LHwDPVOof7FiyeSVACKgBGAs/w0/sky-city-scenery-horizon-landscape-anime-uhdpaper.com-8K-131.jpg");
+    background-size: contain;
 }
 /*The header section*/
 img{
