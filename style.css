@@ -48,17 +48,18 @@ header{
     height: 200px;
     width: 60%;
     margin-left: 10px;
-    background-color: #642ec58c;
+    background-color: #642ec58c ;
 }
 .top2{
-    display: flex
+    display: flex;
+
 }
 .recent{
     border-radius: 10px;
     height: 300px;
     width: 35%;
     margin-left: 30px;
-    background-color: red;
+    background-color: #642ec58c
 }
 .txt{
     margin-left: 10px;
